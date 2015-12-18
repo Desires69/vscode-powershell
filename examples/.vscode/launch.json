@@ -3,8 +3,9 @@
 	"configurations": [
 		{
 			"name": "PowerShell",
+			"request": "launch",
 			"type": "PowerShell",
-			"program": "DebugTest.ps1"
+			"program": "${workspaceRoot}/DebugTest.ps1"
 		}
 	]
 }
